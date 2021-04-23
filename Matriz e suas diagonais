@@ -1,0 +1,34 @@
+Descrição
+Faça um programa para gerar uma matriz de inteiros N x N e preenche-la com inteiros sequencias de 1 a N*N. Em seguida o programa deve exibir a matriz, a sua diagonal principal e a secundária.
+
+Formato de entrada
+
+Um inteiro N correspondendo à dimensão da matriz quadrada.
+
+Formato de saída
+
+A matriz preenchida com os elementos sequenciais, sua diagonal principal e a secundária. cada elemento será exibido com 3 posições.
+
+Exemplos de:
+
+Entrada
+
+
+3
+Saída
+
+
+Matriz:
+  1  2  3
+  4  5  6
+  7  8  9
+
+Diagonal Principal:
+  1
+     5
+        9
+
+Diagonal Secundaria:
+        3
+     5
+  7
