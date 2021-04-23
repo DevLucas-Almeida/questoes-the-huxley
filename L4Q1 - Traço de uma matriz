@@ -1,0 +1,83 @@
+Descrição
+Fulano De Tal finalmente entrou no melhor centro de informática da América Latina. Como ele sempre gostou muito de matemática e sabia que precisaria do assunto de matrizes na cadeira de Álgebra Linear, decidiu usar seus conhecimentos de programação para calcular o traço de uma matriz quadrada. Além disso, calcular a soma dos elementos da diagonal secundária de uma matriz quadrada.
+
+Seu trabalho é fazer um programa que, dado o número de linhas e colunas de uma matriz, identificar se ela é quadrada e imprimir a matriz. Caso ela seja, seu programa deve calcular  o traço (soma dos elementos da diagonal principal), e a soma dos elementos da diagonal secundária.
+
+Formato de entrada
+
+N
+
+M
+
+N - número natural
+M - número natural 
+A primeira e a segunda linha de entrada é referente ao número de linhas e colunas da matriz, respectivamente.
+
+Seguido de uma sequência de  N*M inteiros :
+A00
+A01
+...
+Aij
+elementos da matriz.
+
+
+obs: Os elementos são dados para formar a matriz linha por linha, da esquerda para direita.
+Formato de saída
+
+"A matriz nao possui traco"
+
+Caso a matriz dada não seja quadrada.
+
+Caso a matriz seja quadrada, 
+
+T
+
+D
+
+T - número inteiro
+D - número inteiro
+Em que T é referente ao traço e D referente à soma dos elementos da diagonal secundária.
+
+Depois, imprimir a matriz, independentemente se é quadrada ou não, separando os elementos de mesma linha com espaço, e com quebra de linha depois do último elemento de cada linha.
+A00 .... A0j
+
+....   ....  ....
+
+Ai0  .... Aij
+
+Exemplos de:
+
+Entrada
+
+
+2
+2
+-8
+9
+-2
+-6
+Saída
+
+
+-14
+7
+-8 9
+-2 -6
+Entrada
+
+
+3
+2
+-9
+6
+-11
+-9
+-1
+-7
+Saída
+
+
+A matriz nao possui traco
+-9 6
+-11 -9
+-1 -7
