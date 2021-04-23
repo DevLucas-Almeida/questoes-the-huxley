@@ -1,0 +1,47 @@
+Escreva um programa que leia os elementos de uma matriz e ache a sua tranposta.
+
+
+
+
+Formato de entrada
+
+Dois inteiros R, C | R, C < 100 que indicará a quantidade linhas e colunas da matriz
+
+Nas linhas restantes o valor para cada posição da matriz
+
+Formato de saída
+
+A matriz transposta.
+
+Exemplos de:
+
+Entrada
+
+
+3 3
+31 8 25 
+15 43 22 
+22 5 47 
+
+Saída
+
+
+31 15 22 
+8 43 5 
+25 22 47 
+-------------------------------------------------------
+Entrada
+
+
+3 4
+14 42 47 0 
+11 12 28 41 
+4 26 40 20 
+
+Saída
+
+
+14 11 4 
+42 12 26 
+47 28 40 
+0 41 20 
